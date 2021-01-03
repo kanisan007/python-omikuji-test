@@ -5,7 +5,6 @@ kaitou = input('おみくじをしますか？するなら[y]、しないなら[
 
 if kaitou=='y':
     print('それではおみくじをを引きます。')
-    print('・・・抽選中・・・')
     kekka = random.randint(1,5)
 
     if kekka==1:
